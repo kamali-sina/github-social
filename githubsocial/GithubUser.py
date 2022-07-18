@@ -40,6 +40,16 @@ class GithubUser:
         print()
         return full_users
 
+    def get_followers(self) -> list:
+        if not self.followers:
+            self.followers = self.__get_full_users(self.FOLLOWERS_TAB)
+        return self.followers
+    
+    def get_followings(self) -> list:
+        if not self.following:
+            self.following = self.__get_full_users(self.FOLLOWING_TAB)
+        return self.following
+
     def get_following_followers_diff(self) -> list:
         if not self.followers:
             self.followers = self.__get_full_users(self.FOLLOWERS_TAB)
