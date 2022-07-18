@@ -1,7 +1,4 @@
-import os
 from sys import argv
-from bs4 import BeautifulSoup
-from urllib.request import urlopen
 
 from GithubUser import GithubUser
 
