@@ -12,7 +12,7 @@ Our package is published on PyPI, so you can install it with pip:
 
 ## features
 
-Do you want to findout which one of your friends don't follow you back? Use the code below to find out!
+Do you want to find out which one of your friends don't follow you back? Use the code below to easily find out!
 
 ```python
 from githubsocial.GithubUser import GithubUser
